@@ -12,7 +12,7 @@ const NewQuotes = () => {
   };
   useEffect(() => {
     if (status === "completed") {
-      history.push("/GreatQuotes");
+      history.push("/quotes");
     }
   }, [status, history]);
   return (

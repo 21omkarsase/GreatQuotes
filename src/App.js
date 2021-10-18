@@ -20,12 +20,12 @@ function App() {
         >
           <Switch>
             <Route path="/" exact>
-              <Redirect to="/GreatQuotes" />
+              <Redirect to="/quotes" />
             </Route>
-            <Route path="/GreatQuotes" exact>
+            <Route path="/quotes" exact>
               <AllQuote />
             </Route>
-            <Route path="/GreatQuotes/:quoteId">
+            <Route path="/quotes/:quoteId">
               <QuoteDetail />
             </Route>
             <Route path="/new-quote">
